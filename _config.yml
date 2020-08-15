@@ -1,0 +1,16 @@
+author: &author "Thomas Gohard"
+title: *author
+publication-year: "2020"
+permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+  -
+    scope:
+      path: "_posts"
+    values:
+      permalink: /blog/:title/
